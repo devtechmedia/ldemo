@@ -17,6 +17,6 @@ Route::get('/', function () {
 
 
 
-Route::get('/index1', function () {
-    //return view('errors/503');
+Route::get('/hh', function () {
+    return view('errors/503');
 });
