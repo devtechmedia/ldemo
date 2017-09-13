@@ -11,12 +11,16 @@
 |
 */
 
+Route::get('/book', 'BookController@index');
+
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index/index');
 });
+//
+//
+//
+//Route::get('/book', function () {
+//    return view('book/bookindex');
+//});
 
-
-
-Route::get('/hh', function () {
-    return view('errors/503');
-});

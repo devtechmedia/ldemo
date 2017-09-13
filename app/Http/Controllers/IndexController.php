@@ -6,9 +6,9 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use App\Post;
 
-class Index1Controller extends Controller
+class IndexqController extends Controller
 {
     public function index(){
-        echo "HI====";
+        echo "HI====";exit;
     }
 }
