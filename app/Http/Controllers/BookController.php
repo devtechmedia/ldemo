@@ -18,7 +18,6 @@ class BookController extends Controller {
     public function index() {
         
         $books = Book::all();
-        //echo "<pre>";print_r($books);exit;
         return view('book/bookindex', compact('books'));
     }
 
